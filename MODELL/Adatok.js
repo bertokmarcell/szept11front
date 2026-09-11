@@ -1,0 +1,20 @@
+export const HAJOLISTA=[
+    {
+        nev:"pearl",
+        szin:"blue",
+        kapitany:"davy",
+        valodi:false
+    },
+    {
+        nev:"titanic",
+        szin:"white",
+        kapitany:"dicabrio",
+        valodi:true
+    },
+    {
+        nev:"bolygo",
+        szin:"green",
+        kapitany:"dunno",
+        valodi:false
+    },
+]

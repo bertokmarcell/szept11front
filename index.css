@@ -1,0 +1,55 @@
+*{
+    box-sizing: border border-box;
+}
+main{
+    max-width: 1500px;
+    margin: auto;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+}
+nav ul li {
+    padding: 10px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: rgb(252, 252, 252);
+}
+nav ul li a:hover{
+    text-decoration: none;
+    background-color: rgb(253, 254, 255);
+}
+nav ul{
+    justify-content: center;
+    text-decoration: none;
+    display: flex;
+}
+nav ul:hover{
+    list-style: none;   
+    padding: 0px;
+    background-color: rgb(213, 210, 226);
+}
+.adat p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.tarolo div{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;   
+}
+article{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
