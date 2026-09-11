@@ -41,7 +41,8 @@ export default class Hajocontroller{
         })
         window.addEventListener("kosarba",(e)=>{
             const adat = this.#hajomodell.getadat(e.detail)
-            this.#objektumlista+=adat;
+            const kosarlista = new
+            this.#objektumlista.push();
             
         })
     }

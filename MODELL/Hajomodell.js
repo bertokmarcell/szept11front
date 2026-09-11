@@ -2,7 +2,7 @@ import { HAJOLISTA } from "./Adatok.js"
 
 export default class Hajomodell{
     #lista=[]
-    #kosarlista
+    #kosarlista=[]
     constructor(){
         this.#lista=HAJOLISTA
     }
@@ -35,5 +35,8 @@ export default class Hajomodell{
     }
     getkosarlista(){
         return this.#kosarlista;
+    }
+    kosarbarakas(obj){
+        this.#kosarlista.push(obj);
     }
 }
